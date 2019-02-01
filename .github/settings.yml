@@ -31,8 +31,8 @@ branches:
       required_pull_request_reviews:
         dismiss_stale_reviews: true
       required_status_checks:
-#        strict: true
-#        contexts: ['WIP']
+        strict: true
+        contexts: ['WIP']
       restrictions:
         users: []
         teams: []
@@ -42,8 +42,8 @@ branches:
       required_pull_request_reviews:
         dismiss_stale_reviews: true
       required_status_checks:
-#        strict: true
-#        contexts: ['WIP']
+        strict: true
+        contexts: ['WIP']
       restrictions:
         users: [
           'timlangley'
